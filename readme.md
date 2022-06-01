@@ -1,4 +1,5 @@
 # Payload Library for the Rubber Ducky & O.MG Plug/Cables by OMG Tech
+https://www.youtube.com/channel/UCmIE7_NdD8KnVUibayAix0w
 
 This repository contains payloads and extensions for the Hak5 USB Rubber Ducky & O.MG Plug/Cables.
 
