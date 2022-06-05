@@ -5,6 +5,7 @@ This repository contains payloads and extensions for the Hak5 USB Rubber Ducky &
 
 ## How to use
 If you are using a Rubber Ducky, use the inject.bin and put it on your Rubber Ducky.
+
 If you are using a O.MG Plug or O.MG Cable, use the duckycode.txt file and copy & paste the Duckyscript code.
 
 ## Duck Toolkit
