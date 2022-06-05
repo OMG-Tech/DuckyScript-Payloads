@@ -3,11 +3,6 @@ My YouTube CHannel: https://www.youtube.com/channel/UCmIE7_NdD8KnVUibayAix0w
 
 This repository contains payloads and extensions for the Hak5 USB Rubber Ducky & O.MG Plug/Cables.
 
-## How to use
-If you are using a Rubber Ducky, use the inject.bin and put it on your Rubber Ducky.
-
-If you are using a O.MG Plug or O.MG Cable, use the duckycode.txt file and copy & paste the Duckyscript code.
-
 ## Duck Toolkit
 The Duck Toolkit is a handy website where you can create your own payloads, as well as encode and decode payloads and browsing payloads from other users.
 
