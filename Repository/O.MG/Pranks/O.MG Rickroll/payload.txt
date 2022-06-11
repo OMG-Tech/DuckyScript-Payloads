@@ -1,0 +1,17 @@
+REM Rick Roll made by : OMG Tech
+REM GitHub: https://github.com/OMG-Tech/DuckyScript-Payloads
+REM YouTube: https://www.youtube.com/channel/UCmIE7_NdD8KnVUibayAix0w
+DELAY 2000
+REM Language (change to your language)
+DUCKY_LANG DE
+
+REM opens runbox and plays the rickroll in fullscreen
+DELAY 200
+GUI r
+DELAY 200
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+DELAY 500
+F11
+DELAY 2000
+STRING f
