@@ -1,0 +1,17 @@
+REM payload that updates windows
+REM created by : OMG Tech
+
+REM Time for PC to recognize Ducky/O.MG
+DELAY 1000
+
+REM Language (change to your language)
+DUCKY_LANG DE
+
+REM open runbox
+GUI r
+DELAY 100
+
+REM type "control update" to start windows updates
+STRING control update
+DELAY 100
+ENTER
