@@ -1,0 +1,74 @@
+REM payload that updates windows and runs disk cleanup
+REM created by : OMG Tech
+REM YouTube : https://www.youtube.com/channel/UCmIE7_NdD8KnVUibayAix0w
+REM GitHub : https://github.com/OMG-Tech/DuckyScript-Payloads
+
+REM Time for PC to recognize Ducky/O.MG
+DELAY 1000
+
+REM Language (change to your language)
+DUCKY_LANG DE
+
+REM open runbox
+GUI r
+DELAY 100
+
+REM type "control update" to start windows updates
+STRING control update
+DELAY 100
+ENTER
+
+REM open start menu
+DELAY 5000
+GUI
+
+REM launch disk cleanup
+DELAY 100
+STRING disk cleanup
+DELAY 100
+ENTER
+
+REM confirming drive C: as the drive to cleanup
+DELAY 1000
+ENTER
+
+REM ticking every box in the list and starting the cleanup
+DELAY 2000
+DOWNARROW
+DELAY 100
+DOWNARROW
+DELAY 100
+DOWNARROW
+DELAY 100
+SPACE
+DELAY 100
+DOWNARROW
+DELAY 100
+SPACE
+DELAY 100
+DOWNARROW
+DELAY 100
+SPACE
+DELAY 100
+DOWNARROW
+DELAY 100
+SPACE
+DELAY 100
+ENTER
+DELAY 500
+ENTER
+
+REM Run Windows Security Scan
+DELAY 10000
+GUI r
+STRING cmd
+CONTROL SHIFT ENTER
+DELAY 500
+LEFTARROW
+ENTER
+DELAY 500
+STRING cd C:\ProgramData\Microsoft\Windows Defender\Platform\4.18*
+ENTER
+DELAY 200
+STRING MpCmdRun -Scan -ScanType 1
+ENTER
